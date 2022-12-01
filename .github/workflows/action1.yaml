@@ -8,6 +8,7 @@ env:
   MY_VAR2: v1.0.2 # you should lock to version tag
 
 
+
 jobs:
   build:
     uses: vegarringdal/action2/.github/workflows/action2.yaml@main
