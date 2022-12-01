@@ -13,4 +13,5 @@ jobs:
     uses: vegarringdal/action2/.github/workflows/action2.yaml@main
     with: 
       config: "hard coded"
-    secrets: inherit
+    secrets:
+      envPAT: ${{ secrets.TEST1 }}
