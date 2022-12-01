@@ -15,4 +15,4 @@ jobs:
     with: 
       config: "static value"
     secrets:
-      TEST1: ${{ secrets.TEST1 }}
+      SSH_PRIVATE_KEY_TOOLS: ${{ secrets.SSH_PRIVATE_KEY_TOOLS }}
