@@ -14,4 +14,4 @@ jobs:
     with: 
       config: "hard coded"
     secrets:
-      envPAT: ${{ secrets.TEST1 }}
+      TEST1: ${{ secrets.TEST1 }}
