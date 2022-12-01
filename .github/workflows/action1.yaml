@@ -1,0 +1,16 @@
+name: Call shared workflow
+
+on:
+  push:
+
+env:
+  MY_VAR1: "me and me"
+  MY_VAR2: v1.0.2 # you should lock to version tag
+
+
+jobs:
+  build:
+    uses: vegarringdal/action2/.github/workflows/job1.yml@main
+    with: 
+      config: ${{ env.MY_VAR1 }}
+    secrets: inherit
