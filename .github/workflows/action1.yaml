@@ -10,7 +10,7 @@ env:
 
 jobs:
   build:
-    uses: vegarringdal/action2/.github/workflows/action2.yml@main
+    uses: vegarringdal/action2/.github/workflows/action2.yaml@main
     with: 
       config: ${{ env.MY_VAR1 }}
     secrets: inherit
